@@ -1,1 +1,352 @@
-
+{
+  "Velocity": {
+    "enabled": true,
+    "bind": 0,
+    "Mode": "Simple",
+    "Vertical": 0.0,
+    "Horizontal": 0.0,
+    "Air Ticks": 5.0
+  },
+  "KillAura": {
+    "enabled": false,
+    "bind": 88,
+    "Switch Aura": true,
+    "Switch Delay": 150.0,
+    "Sort Mode": "Hurttime",
+    "Find Range": 6.0,
+    "Attack Range": 6.0,
+    "Block Range": 6.0,
+    "Rot Mode": "Normal",
+    "Angle Smooth Mode": [],
+    "Rot Speed": {
+      "max": 180.0,
+      "min": 180.0
+    },
+    "Aim Mode": "Head",
+    "1.9 Attack Speed": false,
+    "CPS": {
+      "max": 12.0,
+      "min": 10.0
+    },
+    "AutoBlock": "Post",
+    "Hand": "Offhand",
+    "Unblock Mode": "Stop Using Item",
+    "Fake autoblock": false,
+    "Attack team mates": true,
+    "Stop in guis": true,
+    "Raytrace": false,
+    "MoveFix": false
+  },
+  "Criticals": {
+    "enabled": false,
+    "bind": 0,
+    "Mode": "Vanilla"
+  },
+  "TriggerBot": {
+    "enabled": false,
+    "bind": 0
+  },
+  "TickBase": {
+    "enabled": false,
+    "bind": 0,
+    "Max Range": 4.0,
+    "Min Range": 3.5,
+    "Boost Ticks": 1.0,
+    "Boost Start Tick": 1.0,
+    "Freeze Ticks": 1.0,
+    "Free Start Tick": 1.0,
+    "Low Timer Ticks": 5.0,
+    "Low Timer": 0.2,
+    "High Timer Ticks": 3.0,
+    "High Timer": 1.5,
+    "Cooldown Ticks": 60.0
+  },
+  "InfiniteAura": {
+    "enabled": false,
+    "bind": 0,
+    "Range": 32.0,
+    "Attack team mates": false,
+    "1.9 Attack Speed": false,
+    "CPS": {
+      "max": 12.0,
+      "min": 10.0
+    }
+  },
+  "Backtrack": {
+    "enabled": false,
+    "bind": 0,
+    "Range": 3.0,
+    "Delay": 100.0
+  },
+  "Fly": {
+    "enabled": false,
+    "bind": 0,
+    "Mode": "Creative",
+    "Speed": 5.0,
+    "KeepY": false,
+    "Glide": false,
+    "Strafe Speed": 1.0,
+    "Horizontal Boost": 1.0,
+    "Vertical Boost": 1.0
+  },
+  "Speed": {
+    "enabled": false,
+    "bind": 90,
+    "Mode": "NCP",
+    "Strafe": false,
+    "FastFall": false,
+    "HurtBoost": true,
+    "LowHop": true,
+    "FastFall 2": false
+  },
+  "Spider": {
+    "enabled": false,
+    "bind": 0,
+    "Mode": "Vanilla"
+  },
+  "KeepSprint": {
+    "enabled": true,
+    "bind": 0,
+    "Sprint": true
+  },
+  "Scaffold": {
+    "enabled": false,
+    "bind": 82,
+    "Rotation Mode": "None",
+    "Sprint": true,
+    "Sprint Mode": "NoPacket",
+    "KeepY": true,
+    "KeepY Mode": "Normal",
+    "Tower": true,
+    "Tower Mode": "Vulcan",
+    "MoveFix": false,
+    "Raycast": false,
+    "Strict Raycast": false
+  },
+  "Sprint": {
+    "enabled": true,
+    "bind": 0,
+    "Rage": false
+  },
+  "NoSlow": {
+    "enabled": true,
+    "bind": 0,
+    "Mode": "Vanilla",
+    "Block": true,
+    "Eat": true,
+    "Drink": true,
+    "Bow": true
+  },
+  "Jesus": {
+    "enabled": false,
+    "bind": 0,
+    "Mode": "Vanilla"
+  },
+  "Step": {
+    "enabled": false,
+    "bind": 0,
+    "Mode": "NCP"
+  },
+  "InvMove": {
+    "enabled": false,
+    "bind": 0,
+    "Mode": "Vanilla",
+    "Jump": false,
+    "Undetectable": false
+  },
+  "TargetStrafe": {
+    "enabled": true,
+    "bind": 0,
+    "Range": 2.0,
+    "Hold jump": true,
+    "Strafe": false
+  },
+  "Packet Logger": {
+    "enabled": false,
+    "bind": 0,
+    "PlayerInteractBlockC2SPacket": true,
+    "PlayerInteractItemC2SPacket": true,
+    "PlayerInteractEntityC2SPacket": true,
+    "ClientCommandC2SPacket": true,
+    "PlayerActionC2SPacket": true,
+    "Rest": true,
+    "Send": true,
+    "Receive": true
+  },
+  "AntiBot": {
+    "enabled": false,
+    "bind": 0,
+    "Mode": "Hypixel",
+    "Name check": true,
+    "Dead check": true,
+    "God check": true,
+    "Invis check": true
+  },
+  "AntiVoid": {
+    "enabled": false,
+    "bind": 0,
+    "Mode": "Vanilla",
+    "Min Fall Distance": 8.0
+  },
+  "ChestStealer": {
+    "enabled": false,
+    "bind": 0,
+    "Start Delay": 100.0,
+    "Take Delay": {
+      "max": 200.0,
+      "min": 150.0
+    },
+    "Close Delay": {
+      "max": 200.0,
+      "min": 150.0
+    },
+    "Important only": true,
+    "Close": true
+  },
+  "InventoryManager": {
+    "enabled": false,
+    "bind": 0,
+    "Start Delay": 100.0,
+    "Take Delay": {
+      "max": 200.0,
+      "min": 150.0
+    },
+    "Throw Sword": false,
+    "Sword Slot": 1.0,
+    "Throw Blocks": false,
+    "Block Slot": 4.0,
+    "Throw Tools": false,
+    "Pickaxe Slot": 2.0,
+    "Axe Slot": 3.0,
+    "Shovel Slot": 9.0,
+    "Hoe Slot": 8.0
+  },
+  "NoRotate": {
+    "enabled": false,
+    "bind": 0
+  },
+  "AntiCheat": {
+    "enabled": false,
+    "bind": 0,
+    "Check self": true
+  },
+  "FlagDetector": {
+    "enabled": false,
+    "bind": 0
+  },
+  "Disabler": {
+    "enabled": true,
+    "bind": 0,
+    "Vulcan scaffold": false,
+    "Vulcan Reach": false,
+    "Verus combat": true,
+    "Ping Spoof": false,
+    "Ping Spoof Delay": 2500.0,
+    "Watchdog": false
+  },
+  "Blink": {
+    "enabled": false,
+    "bind": 0
+  },
+  "NoFall": {
+    "enabled": true,
+    "bind": 0,
+    "NoFall Mode": "Vulcan",
+    "Min Fall Distance": 4.0
+  },
+  "BedAura": {
+    "enabled": false,
+    "bind": 0,
+    "Break Range": 4.0,
+    "Delay": 5.0,
+    "Break Top": true,
+    "Rotate": true,
+    "Rot on packet": true,
+    "Break eggs": false,
+    "MoveFix": false
+  },
+  "BedwarsHelper": {
+    "enabled": false,
+    "bind": 0
+  },
+  "NoRender": {
+    "enabled": true,
+    "bind": 0
+  },
+  "Animations": {
+    "enabled": true,
+    "bind": 0,
+    "Mode": "1.7",
+    "Y Offset": 2.0,
+    "Swing Speed": 1.0
+  },
+  "Ambience": {
+    "enabled": false,
+    "bind": 0,
+    "Time": 0.0,
+    "Weather": "Clear"
+  },
+  "Fullbright": {
+    "enabled": false,
+    "bind": 0
+  },
+  "ESP": {
+    "enabled": true,
+    "bind": 0,
+    "Chams": true,
+    "Box": false
+  },
+  "ClickGui": {
+    "enabled": false,
+    "bind": 344,
+    "Mode": "ImGui"
+  },
+  "TargetHUD": {
+    "enabled": true,
+    "bind": 0,
+    "TargetHUD Mode": "Nexus",
+    "Debug": false,
+    "BG Opacity": 80.0
+  },
+  "PostProcessing": {
+    "enabled": true,
+    "bind": 0,
+    "TargetHud": true,
+    "WaterMark": true,
+    "Arraylist": true
+  },
+  "Interface": {
+    "enabled": true,
+    "bind": 0,
+    "Watermark": true,
+    "Watermark Mode": "Simple",
+    "Watermark Text": "Nexus",
+    "Watermark Font": "Product Sans Bold",
+    "ArrayList": true,
+    "Color Mode": "Theme",
+    "ArrayList Font": "Product Sans Bold",
+    "Suffix": "Space",
+    "Hide visuals": true,
+    "Lowercase": true,
+    "Backbar Mode": "Full",
+    "Offset": 14.0,
+    "BG Opacity": 80.0
+  },
+  "Notifications": {
+    "enabled": true,
+    "bind": 0,
+    "BG Opacity": 0.0,
+    "Font": "Product Sans Bold"
+  },
+  "Theme": {
+    "enabled": false,
+    "bind": 0,
+    "Theme": "Shade",
+    "Red Main": 0.0,
+    "Green Main": 0.0,
+    "Blue Main": 0.0,
+    "Red Second": 255.0,
+    "Green Second": 255.0,
+    "Blue Second": 255.0
+  }
+}
