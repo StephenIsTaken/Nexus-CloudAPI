@@ -236,13 +236,13 @@
     "Bow Mode": "Vanilla"
   },
   "Speed": {
-    "enabled": false,
+    "enabled": true,
     "bind": 86,
     "Mode": "NCP",
     "Vanilla Speed": 0.2,
-    "LowHop": false,
+    "LowHop": true,
     "Watchdog Test": false,
-    "HurtBoost": true,
+    "HurtBoost": false,
     "Funny": false,
     "Hurttime": 6.0,
     "Hurt Speed": 0.608,
@@ -319,9 +319,9 @@
     "Timer": 1.0
   },
   "AntiVoid": {
-    "enabled": false,
+    "enabled": true,
     "bind": 0,
-    "Mode": "Vanilla",
+    "Mode": "MotionFlag",
     "Min Fall Distance": 8.0
   },
   "BedAura": {
